@@ -1,0 +1,41 @@
+.container{
+  text-align: center;
+    width: 100vw;
+    height: 100vh;
+ background-color: aquamarine;
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+/* .container h1{
+    text-align: center;
+}
+body .container h1{
+    text-align: center;  
+} */
+
+@media  screen and (max-width:1440px) {
+    .container{
+        background-color:green;
+    }
+
+}
+@media  screen and (max-width:1024px)  {
+    .container{
+        background-color:rgb(216, 130, 24);
+    }
+    
+}
+@media  screen and (max-width:768px)  {
+    .container{
+        background-color:aqua;
+    }
+    
+}
+@media  screen and (max-width:486px){
+    .container{
+        background-color:rgb(165, 25, 25);
+    }
+    
+}
